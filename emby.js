@@ -188,7 +188,7 @@ function generateCURL(data) {
 }
 
 function generateNplayerURLScheme(data) {
-  return "nplayer-" + encodeURIComponent(video.original_url);
+  return "nplayer-" + data.video.original_url;
 }
 
 function generateShuURL(data) {
